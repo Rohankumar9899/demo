@@ -1,5 +1,5 @@
 FROM node:20-apline
-WORKDIR / apps
+WORKDIR /apps
 COPY package*.json .
 RUN npm install 
 COPY . .
